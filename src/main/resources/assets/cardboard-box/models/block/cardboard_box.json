@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_top",
+  "textures": {
+    "side": "cardboard-box:block/cardboard_box_side",
+    "top": "cardboard-box:block/cardboard_box_top"
+  }
+}

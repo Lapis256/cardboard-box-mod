@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cardboard-box:block/cardboard_box"
+    }
+  }
+}

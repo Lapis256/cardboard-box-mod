@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "cardboard-box",
+  "version": "${version}",
+  "name": "Cardboard Box",
+  "description": "This Fabric mod adds a block similar to Mekanism's cardboard box.",
+  "authors": [
+    "Lapis256"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Lapis256/cardboard-box-mod",
+    "sources": "https://github.com/Lapis256/cardboard-box-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/cardboard-box/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "io.github.lapis256.CardboardBoxMod",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "minecraft": "~${mcVersion}",
+    "java": ">=17",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${kotlinVersion}"
+  },
+  "suggests": {
+    "techreborn": "*",
+    "energizedpower": "*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:saw_dusts"
+    }
+  },
+  "result": {
+    "item": "cardboard-box:cardboard_box"
+  }
+}
